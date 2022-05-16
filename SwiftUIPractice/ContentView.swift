@@ -9,8 +9,8 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        //이런식으로 다른 뷰를 선언할수 있다.
+        MyView(helloFont: .title)
     }
 }
 
